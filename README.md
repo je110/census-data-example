@@ -24,11 +24,11 @@ Return all zipcodes which have a total population within range provided by the c
 
 Return all zipcodes which have a median age within a range provided by the client.
   `/medianAge`, params: `min`, `max` (inclusive range)
-  ex: `localhost:8080/api/v1/census/medianAge/min=10&max=19
+  ex: `localhost:8080/api/v1/census/medianAge/min=10&max=19`
 
 Return top X number of most populated zipcodes.
   `/mostPopulous`, params: `amount`
-  ex: `localhost:8080/api/v1/census/mostPopulous/amount=10
+  ex: `localhost:8080/api/v1/census/mostPopulous/amount=10`
   
 Return all zipcodes with more females than males ordered by the difference descending.
   `/mostlyFemale`
