@@ -7,6 +7,7 @@ Census Data - Example
 Instructions:
 
 -update `application.properties` with mySQL user info
+
 -create a database called `census` 
 
 
